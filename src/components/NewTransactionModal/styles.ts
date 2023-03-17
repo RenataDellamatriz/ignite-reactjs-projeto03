@@ -40,6 +40,10 @@ export const Content = styled(Dialog.Content)`
     }
 
     button[type="submit"] {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
       height: 58px;
       border: 0;
       background: ${(props) => props.theme["green-500"]};
@@ -50,7 +54,12 @@ export const Content = styled(Dialog.Content)`
       margin-top: 1.5rem;
 
       cursor: pointer;
-      :hover {
+
+      :disabled {
+        opacity: 0.7;
+        cursor: not-allowed;
+      }
+      :not(:disabled):hover {
         background: ${(props) => props.theme["green-700"]};
         transition: 0.2s;
       }
