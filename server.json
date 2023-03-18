@@ -39,6 +39,14 @@
       "type": "outcome",
       "createdAt": "2023-03-18T14:45:10.893Z",
       "id": 5
+    },
+    {
+      "description": "Iogurte",
+      "price": 4,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-03-18T17:40:31.910Z",
+      "id": 6
     }
   ]
 }
