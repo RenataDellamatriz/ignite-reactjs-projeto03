@@ -6,7 +6,7 @@
       "type": "income",
       "category": "Venda",
       "price": 14000,
-      "createdAt":"2023-03-17T17:30:14.223Z"
+      "createdAt": "2023-03-17T17:30:14.223Z"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "type": "outcome",
       "category": "Alimentação",
       "price": 50,
-      "createdAt":"2023-03-17T17:25:14.223Z"
+      "createdAt": "2023-03-17T17:25:14.223Z"
     },
     {
       "id": 3,
@@ -22,7 +22,23 @@
       "type": "outcome",
       "category": "Educação",
       "price": 1980,
-      "createdAt":"2023-03-17T19:25:14.223Z"
+      "createdAt": "2023-03-17T19:25:14.223Z"
+    },
+    {
+      "description": "Desenvolvimento de App",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-03-18T14:27:46.552Z",
+      "id": 4
+    },
+    {
+      "description": "Omelete",
+      "price": 5,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-03-18T14:45:10.893Z",
+      "id": 5
     }
   ]
 }
